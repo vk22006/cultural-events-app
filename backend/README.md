@@ -1,8 +1,8 @@
-# Cultural Events Booking - Backend ⚙️
+# Cultural Events Booking - Backend
 
 The Node.js and Express backend for the Cultural Events Booking System.
 
-## ✨ Features
+## Features
 
 -   **RESTful API**: Standard HTTP methods for managing events, users, and bookings.
 -   **JWT Authentication**: Secure stateless authentication for users and admins.
@@ -10,7 +10,7 @@ The Node.js and Express backend for the Cultural Events Booking System.
 -   **Role-Based Access**: Middleware to protect sensitive administrative routes.
 -   **Automatic Synchronization**: Synchronizes database models with MySQL tables on startup.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Node.js**: Asynchronous JavaScript runtime.
 -   **Express.js**: Minimalist web framework.
@@ -19,7 +19,7 @@ The Node.js and Express backend for the Cultural Events Booking System.
 -   **JWT**: Token-based security and authorization.
 -   **Bcrypt.js**: Secure password hashing.
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ npm run dev
 
 The server will run at [http://localhost:5000](http://localhost:5000).
 
-## 📂 Structure
+## Structure
 
 -   `config/`: Database connection and Sequelize instance.
 -   `controllers/`: API route handlers.
